@@ -10,12 +10,14 @@ body{
 body{
   width:100vw;
   min-height: 100vh;
-  background: url("./static/BGmain.png") 0 0/100% 100% no-repeat;
+  background: url("./static/BGmain.png") 0 0/100% 100%;
 }
 table, input,.MuiSelect-select{
   background: #F5F5F5 !important;
 }
-
+.MuiTableContainer-root{
+  overflow-x: visible !important;
+}
 a{
   font-size: 22px;
   text-decoration: none;
